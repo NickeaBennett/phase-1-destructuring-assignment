@@ -1,6 +1,17 @@
 const farmAnimals = 'cow horse sheep pig chicken';
-
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(` `);
+let newFarmAnimals = 'cow sheep pig chicken';
+const [bessie, dolly, babe, little] = newFarmAnimals.split(` `);
+newFarmAnimals = 'cow sheep pig';
+const [blackAndWhite, black, pink] = newFarmAnimals.split(` `);
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
+
+const newColor = ['red', 'orange', 'yellow', 'green', 'blue', 'violet'];
+const [r, o, y, g, b, v] = newColor;
+const indg = indigo;
+
+
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -10,6 +21,10 @@ const muppet = {
   partner: 'Kermit'
 };
 
+const {muppetName, color, song, job, partner} = muppet;
+
+
+//MUST COMPLETE THIS ASAP!!!
 const nestedMuppet = {
   nestedName: 'Kermit',
   nestedColor: 'green',
